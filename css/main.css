@@ -100,7 +100,7 @@ h1 {
 .menubutton:focus + div{
     animation-name: slideIn;
     animation-duration: 3s;
-    animation-fill-mode: forwards;
+    animation-fill-mode:forwards;
 }
 
 
