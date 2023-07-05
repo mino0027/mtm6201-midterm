@@ -42,12 +42,9 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    list-style: none;
-    display: grid;
-    align-items: center;    
-    grid-template-areas:
-        "ntit ham"
-    ;    
+    list-style: none;   
+    display: flex;
+    justify-content: space-between;
 }
 
 .navtitle {
@@ -55,13 +52,12 @@ nav {
     text-decoration: none;
     list-style: none;
     text-align: center;
-    font-size: 1.2rem;    
+    font-size: 1.2rem; 
 }
 
 .burger {
-    text-align: right;
-    padding-right: 1rem;
     font-size: 1.5rem;
+
 }
 
 .chat {
@@ -91,3 +87,18 @@ nav {
 .navtitle {
     grid-area: ntit;
 }
+
+.activemenu {
+    list-style: none;
+    background-color: rgb(252, 204, 117);
+    margin-top: -.1rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(236, 87, 50);
+}
+.activemenu li {
+    padding: 1rem;
+}
+
+/* test */
