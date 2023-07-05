@@ -36,30 +36,6 @@ body {
     margin: .1rem;
 }
 
-
-nav {
-    background-color: rgb(236, 87, 50);
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    list-style: none;   
-    display: flex;
-    justify-content: space-between;
-}
-
-.navtitle {
-    color: rgb(252, 204, 117);
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-    font-size: 1.2rem; 
-}
-
-.burger {
-    font-size: 1.5rem;
-
-}
-
 .chat {
     background-color: darkgreen;
     border: none;
@@ -80,14 +56,31 @@ nav {
 }
 
 
-.fa-bars {
-    grid-area: ham;    
+/*nav below*/
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;  
 }
 
-.navtitle {
-    grid-area: ntit;
+h1 {
+    color: rgb(252, 204, 117);
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem; 
 }
 
+.burger {
+    font-size: 1.5rem;
+
+}
+.main > *:not(:last-child) {
+    background-color: rgb(236, 87, 50);
+}
+.main > *:not(:last-child) {
+    display: inline-block;
+}
+/*to select the childern except the the last*/
 .activemenu {
     list-style: none;
     background-color: rgb(252, 204, 117);
@@ -96,9 +89,28 @@ nav {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(236, 87, 50);
+    transform: translateX(-800px);
 }
 .activemenu li {
     padding: 1rem;
 }
 
 /* test */
+
+.menubutton:focus + div{
+    animation-name: slideIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+/* Define the animation */
+@keyframes slideIn {
+  from {
+    transform: translateX(-800px);
+  }
+  to {
+    transform: translateX(800px);
+  }
+}
+
