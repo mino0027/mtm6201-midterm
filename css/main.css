@@ -4,20 +4,23 @@ body {
 }
 
 #logo {
-    width: 85%;    
+    max-width: 15.3rem;    
     margin-top: 1rem;
     margin-left: 1rem;
+    min-width: 15.3rem;
 } 
 
 .banner {
     display: grid;
     grid-template-areas: 
-        "l l l"
+        "l . ."
+        ". . sc"
         ". c sc"
     ;
     margin-bottom: .3rem;
-    margin-right: .3rem;
+    justify-items: end;
 }
+
 
 .logo {
     grid-area: l;
@@ -25,11 +28,14 @@ body {
 
 .chat {
     grid-area: c;
+    margin: .1rem;
 }
 
 .scart {
     grid-area: sc;
+    margin: .1rem;
 }
+
 
 nav {
     background-color: rgb(236, 87, 50);
@@ -41,12 +47,9 @@ nav {
     align-items: center;    
     grid-template-areas:
         "ntit ham"
-    ;
-    
+    ;    
 }
-nav ul li {
-    justify-content: center;
-}
+
 .navtitle {
     color: rgb(252, 204, 117);
     text-decoration: none;
@@ -64,9 +67,11 @@ nav ul li {
 .chat {
     background-color: darkgreen;
     border: none;
-    border-radius: 5px;
+    border-radius: 19.5px;
     color: rgb(236, 87, 50);
     font-size: 1rem;
+    padding-left: .8rem;
+    padding-right: .8rem;
 }
 
 .scart {
@@ -75,7 +80,7 @@ nav ul li {
     border: none;
     width:min-content;
     font-size: 2rem;
-    
+    margin-right: .4rem;
 }
 
 
