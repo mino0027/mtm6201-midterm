@@ -315,6 +315,13 @@ h2 {
         left: 6rem;
         top: -7rem;
     }
+    #locate h4 {
+        color: rgb(252, 204, 117);
+        text-align: center;
+        padding-left: 3rem;
+        background-color: rgb(236, 87, 50);
+    }
+    
     
 }
 
@@ -390,7 +397,12 @@ h2 {
         left: 6.5rem;
         top: -7rem;
     }
-    
+    #locate h4 {
+        color: rgb(252, 204, 117);
+        text-align: center;
+        padding-left: 4rem;
+        background-color: rgb(236, 87, 50);
+    }
     
 }
 /* required media screens to display differing screen sizes for mobile screens */
@@ -445,3 +457,40 @@ h5 {
 
 /* below is css for Location Html*/
 
+.ping {
+    animation: constant;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+@keyframes constant {
+    from {
+        opacity: 100;
+        scale: 1;
+    }
+    to {
+        opacity: 0;
+        scale: 2;
+    }
+}
+
+
+
+#locate {
+    color: rgb(252, 204, 117);
+    text-align: center;
+    background-color: rgb(236, 87, 50);
+    border-radius: 30px;
+    font-family: 'Modak', cursive;
+    font-weight: lighter;
+}
+
+#locate ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#locate li{
+    padding: 1rem;
+}
