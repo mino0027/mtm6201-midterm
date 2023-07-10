@@ -199,6 +199,7 @@ h2 {
     text-align: center;
 }
 
+
 @media screen and (min-width: 370px) {
     .hpics {
         width: 110px;
@@ -214,6 +215,34 @@ h2 {
         width: 95%;
         border-radius: 35px;
     }
+    h3 {
+        z-index: 4;
+        text-align: center;
+        color: rgb(236, 87, 50);
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: smaller;
+        font-weight: 800;
+        position: relative;
+        top: -9.5rem;
+    }
+    
+    .bakerpic {
+        z-index: 2;
+        position: relative;
+    }
+    .events {
+        margin-left: 2.5%; 
+        margin-right: 2.5%;       
+    }
+    h6 {
+        z-index: 4;
+        margin: 0;
+        position: relative;
+        top: -15rem;
+        font-size: larger;
+    }
+    
+    
 }
 
 @media screen and (min-width: 400px) {
@@ -231,5 +260,72 @@ h2 {
         width: 95%;
         border-radius: 35px;
     }
+    h3 {
+        z-index: 4;
+        text-align: center;
+        color: rgb(236, 87, 50);
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: smaller;
+        font-weight: 800;
+        position: relative;
+        top: -10rem;
+    }
+    
+    .bakerpic {
+        z-index: 2;
+        position: relative;
+    }
+    h6 {
+        z-index: 4;
+        margin: 0;
+        position: relative;
+        top: -16rem;
+        font-size: larger;
+    }
+    
+    
 }
 /* required media screens to display differing screen sizes for mobile screens */
+
+.events {
+    color: rgb(236, 87, 50);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.menucenter {
+    color: rgb(236, 87, 50);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+footer {
+    color: rgb(252, 204, 117);
+    background-color: rgb(236, 87, 50);
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding-bottom: .1rem;
+}
+
+.events {
+    background-color: rgb(252, 204, 117);
+    border-radius: 25px;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+.events ul {
+    list-style: none;
+}
+
+h4 {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+.menupic {
+    z-index: 2;
+    position: relative;
+}
+
