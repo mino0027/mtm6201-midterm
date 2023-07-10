@@ -483,7 +483,7 @@ h5 {
     background-color: rgb(236, 87, 50);
     border-radius: 30px;
     font-family: 'Modak', cursive;
-    font-weight: lighter;
+    font-weight:lighter;
 }
 
 #locate ul {
@@ -493,4 +493,8 @@ h5 {
 
 #locate li{
     padding: 1rem;
+}
+
+footer {
+    text-align: center;
 }
