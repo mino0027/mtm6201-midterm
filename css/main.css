@@ -290,6 +290,31 @@ h2 {
         padding-top: .5rem;
         padding-bottom: .5rem;
     }
+    /* below is css for location html*/
+    .map {
+        width: 95%;
+        border-radius: 25px;
+        background-color: rgb(252, 204, 117);
+        padding-top: 1rem;
+        z-index: 2;
+    }
+    .mapcenter {
+        text-align: center;
+    }
+    .ping {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        background-color: red;
+        width: fit-content;
+        font-size: .5rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        padding-bottom: .5rem;
+        border-radius: 0px 0px 35px 35px;
+        z-index: 4;
+        position: relative;
+        left: 6rem;
+        top: -7rem;
+    }
     
 }
 
@@ -350,6 +375,21 @@ h2 {
         top: -16rem;
         font-size: larger;
     }
+    /* some more location css */
+    .ping {
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        background-color: red;
+        width: fit-content;
+        font-size: .5rem;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        padding-bottom: .5rem;
+        border-radius: 0px 0px 35px 35px;
+        z-index: 4;
+        position: relative;
+        left: 6.5rem;
+        top: -7rem;
+    }
     
     
 }
@@ -402,4 +442,6 @@ h5 {
     z-index: 2;
     position: relative;
 }
+
+/* below is css for Location Html*/
 
