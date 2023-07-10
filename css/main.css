@@ -337,7 +337,11 @@ h2 {
         padding-left: 3rem;
         padding-right: 3rem;
     }
-    
+    /* about us css */
+    .team {
+        width: 150px;
+        height: 120px;
+    }
     
 }
 
@@ -520,3 +524,30 @@ footer {
     text-align: center;
 }
 
+/* about page css below*/
+
+.teams {
+    display: grid;
+    grid-template-areas: 
+        "joe ca"
+        "ma jr"
+    ;
+}
+
+.joe{grid-area: joe;}
+.ma{grid-area: ma;}
+.jr{grid-area: jr;}
+.ca{ grid-area: ca;}
+
+.teams {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: center;
+}
+
+.team{
+    padding-left: .09rem;
+    border-radius: 25px;
+}
