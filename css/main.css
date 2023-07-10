@@ -333,6 +333,11 @@ h2 {
     .kidcenter {
         text-align: center;
     }
+    .visit {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
     
 }
 
@@ -414,6 +419,11 @@ h2 {
         padding-left: 4rem;
         background-color: rgb(236, 87, 50);
     }
+    .visit {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    
     
 }
 /* required media screens to display differing screen sizes for mobile screens */
@@ -509,3 +519,4 @@ h5 {
 footer {
     text-align: center;
 }
+
