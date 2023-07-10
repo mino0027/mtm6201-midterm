@@ -348,6 +348,10 @@ h2 {
         padding-right: 2.5%;
         text-align: center;
     }
+    .family {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
     
 }
 
@@ -440,7 +444,10 @@ h2 {
         padding-right: 5%;
         text-align: center;
     }
-    
+    .family {
+        padding-left: 2.2rem;
+        padding-right: 2.2rem;
+    }
     
 }
 
@@ -570,4 +577,5 @@ footer {
     padding-right: 1rem;
     padding-bottom: .25rem;
 }
+
 
