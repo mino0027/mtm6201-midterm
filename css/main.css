@@ -201,6 +201,10 @@ h2 {
 
 
 @media screen and (min-width: 370px) {
+    h1 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
     .hpics {
         width: 110px;
         border-radius: 20px;
@@ -246,6 +250,10 @@ h2 {
 }
 
 @media screen and (min-width: 400px) {
+    h1 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
     .hpics {
         width: 110px;
         border-radius: 20px;
