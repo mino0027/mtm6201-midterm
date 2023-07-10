@@ -199,7 +199,6 @@ h2 {
     text-align: center;
 }
 
-
 @media screen and (min-width: 370px) {
     h1 {
         padding-left: 1rem;
@@ -342,6 +341,13 @@ h2 {
         width: 150px;
         height: 120px;
     }
+    .teams {
+        list-style-type: none;
+        margin: 0;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        text-align: center;
+    }
     
 }
 
@@ -427,9 +433,18 @@ h2 {
         padding-left: 4rem;
         padding-right: 4rem;
     }
+    .teams {
+        list-style-type: none;
+        margin: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
     
     
 }
+
+
 /* required media screens to display differing screen sizes for mobile screens */
 
 .events {
@@ -539,15 +554,20 @@ footer {
 .jr{grid-area: jr;}
 .ca{ grid-area: ca;}
 
-.teams {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    text-align: center;
-}
 
 .team{
     padding-left: .09rem;
     border-radius: 25px;
 }
+
+.aboutus {
+    color: rgb(236, 87, 50);
+    background-color: rgb(252, 204, 117);
+    text-align: center;
+    margin-top: -1rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .25rem;
+}
+
