@@ -176,7 +176,7 @@ a {
     position: relative;
     margin-top: -13.5rem;
     background-color: rgb(252, 204, 117);
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
     font-family: 'Modak', cursive;
     font-weight: lighter;
     font-size: .9rem;
@@ -188,3 +188,44 @@ h2 {
     font-weight: lighter;
     padding-top: 2rem;
 }
+
+.bakercenter {
+    text-align: center;
+}
+
+.menucenter {
+    text-align: center;
+}
+
+@media screen and (min-width: 370px) {
+    .hpics {
+        width: 110px;
+        border-radius: 20px;
+    }    
+    .bakerpic {
+        width: 95%;
+        padding-top: 1rem;
+        border-radius: 35px;
+    }
+    .menupic {
+        width: 95%;
+        border-radius: 35px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .hpics {
+        width: 110px;
+        border-radius: 20px;
+    }    
+    .bakerpic {
+        width: 95%;
+        padding-top: 1rem;
+        border-radius: 35px;
+    }
+    .menupic {
+        width: 95%;
+        border-radius: 35px;
+    }
+}
+
