@@ -16,3 +16,6 @@ Minimal adjustments made for screen size under 300
 The first animation based on the rubric is the hamburger menu is "functional", based on classmates asking, the Nav does not have to work, as I dont believe I can get it to work (clicking the links) without JS, but for now the animation functions properly.
 
 All code valid
+
+ADD PICTURE RESPONSIVE 
+ADD ARIA AND SCHEMA
