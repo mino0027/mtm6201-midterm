@@ -16,6 +16,7 @@
             <div class="banner">
             <picture>
                 <img id="logo" class="logo" src="images/logo.png" alt="logo for ottawa bagel">
+                <!--do not want to us DERIV to make jpegs, using a PNG-->
             </picture>
             <button class="chat">
                 Chat
@@ -40,6 +41,9 @@
     </div>
     <div class="zindex mapcenter">
                     <img
+                    srcset="
+                    images/map-180_x_180.jpeg 370w,
+                    images/map-240_x_240.jpeg 390w"
                     class="map"
                     src="images/map.jpeg"
                     alt="our location on the map of Ottawa"
@@ -64,6 +68,9 @@
     </div>
     <div class="kidcenter">
         <img class="kid"
+        srcset="
+        images/kid-180_x_180.jpeg 370w,
+        images/kid-240_x_240.jpeg 390w"
         src="images/kid.jpg"
         alt="young child eating some of our menu selection">
     </div>
