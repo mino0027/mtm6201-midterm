@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <div class="container">
     <div>
-        <header>
+        <header role="banner">
             <div class="banner">
             <picture>
                 <img id="logo" class="logo" src="images/logo.png" alt="logo for ottawa bagel">
@@ -26,27 +27,26 @@
             </div>
             <nav>
                 <div class="main">
-                    <h1 class="family">About our world class family!</h1>
+                    <h1 role="heading" class="family">About our world class family!</h1>
                     <button class="menubutton burger"><i class="fa-solid fa-bars"></i></button>    
                     <div class="hidden">
                         <ul class="activemenu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="location.html">Location</a></li>
-                        </ul>
+                            <li><a aria-label="visit home page" href="index.html">Home</a></li>
+                            <li><a aria-label="visit about page" href="about.html">About</a></li>
+                            <li><a aria-label="visit location page" href="location.html">Location</a></li>
                     </div>
                 </div>
             </nav>  
         </header>
     </div>
     <div class="zindex">
-        <h2>The Team</h2>
+        <h2 role="heading">The Team</h2>
             <div class="teams">
                 <div class="joe">
                     <img
                     srcset="
-                    images/joe-180_x_180.jpeg 370w,
-                    images/joe-240_x_240.jpeg 390w"
+                    images/joe-180_x_180.jpg 370w,
+                    images/joe-240_x_240.jpg 390w"
                     class="team"
                     src="images/joe.jpg"
                     alt="our head chef and owner, Jon Smith">
@@ -67,8 +67,8 @@
                 <div class="ma">
                     <img
                     srcset="
-                    images/mama-180_x_180.jpeg 370w,
-                    images/mama-240_x_240.jpeg 390w"
+                    images/mama-180_x_180.jpg 370w,
+                    images/mama-240_x_240.jpg 390w"
                     class="team"
                     src="images/mama.jpg"
                     alt="our head instructor and chef, Jamie Smith">
@@ -116,9 +116,10 @@
         src="images/ott.jpeg"
         alt="image of downtown ottawa, with a sign saying ottawa">
     </div>
-    <footer class="aboutfoot">
+    <footer role="contentinfo" class="aboutfoot">
         <p>&copy;Copyright 2023</p>
         <p>613-123-4567 123 Ottawa St.</p>
     </footer>
+    </div>
 </body>
 </html>

@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <div class="container">
     <div>
-        <header>
+        <header role="banner">
             <div class="banner">
             <picture>
                 <img id="logo" class="logo" src="images/logo.png" alt="logo for ottawa bagel">
@@ -26,20 +27,20 @@
             </div>
             <nav>
                 <div class="main">
-                    <h1 class="visit">Come visit us anytime!</h1>
+                    <h1 role="heading" class="visit">Come visit us anytime!</h1>
                     <button class="menubutton burger"><i class="fa-solid fa-bars"></i></button>    
                     <div class="hidden">
                         <ul class="activemenu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="location.html">Location</a></li>
+                            <li><a aria-label="visit home page" href="index.html">Home</a></li>
+                            <li><a aria-label="visit about page" href="about.html">About</a></li>
+                            <li><a aria-label="visit location page" href="location.html">Location</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>  
         </header>
     </div>
-    <div class="zindex mapcenter">
+    <div role="complementary" class="zindex mapcenter">
                     <img
                     srcset="
                     images/map-180_x_180.jpeg 370w,
@@ -52,8 +53,8 @@
     <div class="ping">
         <p>HERE</p>
     </div>
-    <div id="locate">
-        <h4>Hours of Operation</h4>
+    <main role="main" id="locate">
+        <h2 role="heading">Hours of Operation</h2>
         <ul>
             <li>Monday 7am-7pm</li>
             <li>Tuesday 7am - 7pm</li>
@@ -65,18 +66,19 @@
             <li>Our Contact Info</li>
             <li>613-123-4567</li>
         </ul>
-    </div>
+    </main>
     <div class="kidcenter">
         <img class="kid"
         srcset="
-        images/kid-180_x_180.jpeg 370w,
-        images/kid-240_x_240.jpeg 390w"
+        images/kid-180_x_180.jpg 370w,
+        images/kid-240_x_240.jpg 390w"
         src="images/kid.jpg"
         alt="young child eating some of our menu selection">
     </div>
-    <footer>
+    <footer role="contentinfo">
         <p>&copy;Copyright 2023</p>
         <p>613-123-4567 123 Ottawa St.</p>
     </footer>
+    </div>
 </body>
 </html>

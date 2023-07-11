@@ -206,8 +206,8 @@ h2 {
 
 @media screen and (min-width: 370px) {
     h1 {
-        padding-left: .5rem;
-        padding-right: .5rem;
+        padding-left: .3rem;
+        padding-right: .3rem;
     }
     .hpics {
         max-width: 110px;
@@ -337,10 +337,7 @@ h2 {
     .kidcenter {
         text-align: center;
     }
-    .visit {
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
+
     /* about us css */
     .team {
         width: 150px;
@@ -353,21 +350,21 @@ h2 {
         padding-right: 2.5%;
         text-align: center;
     }
-    .family {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
     .ott {
         width: 100%;
         height: 300px;
+    }
+    .visit {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     
 }
 
 @media screen and (min-width: 390px) {
     h1 {
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: .6rem;
+        padding-right: .6rem;
     }
     .events ul {
         font-size: .9rem;
@@ -442,10 +439,7 @@ h2 {
         padding-left: 4rem;
         background-color: rgb(236, 87, 50);
     }
-    .visit {
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
+
     .teams {
         list-style-type: none;
         margin: 0;
@@ -453,13 +447,16 @@ h2 {
         padding-right: 5%;
         text-align: center;
     }
-    .family {
-        padding-left: 2.2rem;
-        padding-right: 2.2rem;
+    .visit {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     
 }
-
+.visit {
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
 
 /* required media screens to display differing screen sizes for mobile screens */
 
