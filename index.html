@@ -12,7 +12,7 @@
 </head>
 <body>
     <div>
-        <header>
+        <header role="banner">
             <div class="banner">
             <picture>
                 <img id="logo" class="logo" src="images/logo.png" alt="logo for ottawa bagel">
@@ -23,7 +23,7 @@
             <button class="scart"><i class="fa-solid fa-cart-shopping"></i>
             </button>
             </div>
-            <nav>
+            <nav role="navigation">
                 <div class="main">
                     <h1>Home of the worlds best bagel!</h1>
                     <button class="menubutton burger"><i class="fa-solid fa-bars"></i></button>    
@@ -43,6 +43,9 @@
             <ul class="popular popgrid">
                 <li class="pb">
                     <img
+                    srcset="
+                    images/pb.jpeg 370w,
+                    images/pb.jpeg 390w"
                     class="hpics"
                     src="images/pb.jpeg"
                     alt="pretzel breakfast bagel">
@@ -96,7 +99,7 @@
         alt="bagels smoothies and meat along with other food">
         <h6>The rest of our world class menu!</h6>
     </div>
-    <footer>
+    <footer role="contentinfo">
         <p>&copy;Copyright 2023</p>
         <p>613-123-4567 123 Ottawa St.</p>
     </footer>
