@@ -333,6 +333,7 @@ h2 {
     .kid {
         width: 95%;
         border-radius: 35px;
+        padding-bottom: 1rem;
     }
     .kidcenter {
         text-align: center;
