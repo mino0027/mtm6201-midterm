@@ -25,7 +25,7 @@
             <button class="scart"><i class="fa-solid fa-cart-shopping"></i>
             </button>
             </div>
-            <nav>
+            <nav role="navigation">
                 <div class="main">
                     <h1 role="heading" class="family">About our world class family!</h1>
                     <button class="menubutton burger"><i class="fa-solid fa-bars"></i></button>    
@@ -39,56 +39,64 @@
             </nav>  
         </header>
     </div>
-    <div class="zindex">
+    <div role="complementary" class="zindex">
         <h2 role="heading">The Team</h2>
             <div class="teams">
-                <div class="joe">
+                <div class="joe" itemscope itemtype="https://schema.org/Person">
                     <img
                     srcset="
                     images/joe-180_x_180.jpg 370w,
                     images/joe-240_x_240.jpg 390w"
                     class="team"
                     src="images/joe.jpg"
-                    alt="our head chef and owner, Jon Smith">
+                    alt="our head chef and owner, Jon Smith"
+                    itemprop="jobTitle"
+                    itemprop="name">
                     Owner / Head Chef
                     <br>
                     Jon "Joe" Smith</div>
-                <div class="jr">
+                <div class="jr" itemscope itemtype="https://schema.org/Person">
                     <img 
                     srcset="
                     images/jr-180_x_180.jpeg 370w,
                     images/jr-240_x_240.jpeg 390w"
                     class="team"
                     src="images/jr.jpeg"
-                    alt="our sous chef and server, Jon Smith Jr">
+                    alt="our sous chef and server, Jon Smith Jr"
+                    itemprop="jobTitle"
+                    itemprop="name">
                     Sous Chef / Server
                     <br>
                     Jon "Jr" Smith</div>
-                <div class="ma">
+                <div class="ma" itemscope itemtype="https://schema.org/Person">
                     <img
                     srcset="
                     images/mama-180_x_180.jpg 370w,
                     images/mama-240_x_240.jpg 390w"
                     class="team"
                     src="images/mama.jpg"
-                    alt="our head instructor and chef, Jamie Smith">
+                    alt="our head instructor and chef, Jamie Smith"
+                    itemprop="jobTitle"
+                    itemprop="name">
                     Chef / Instructor
                     <br>
                     Jamie "Mama" Smith</div>
-                <div class="ca">
+                <div class="ca" itemscope itemtype="https://schema.org/Person">
                     <img 
                     srcset="
                     images/cash-180_x_180.jpeg 370w,
                     images/cash-240_x_240.jpeg 390w"
                     class="team"
                     src="images/cash.jpeg"
-                    alt="our assistant and cashier, Daisy Rose">
+                    alt="our assistant and cashier, Daisy Rose"
+                    itemprop="jobTitle"
+                    itemprop="name">
                     Assistant / Cashier
                     <br>
                     Daisy Rose</div>
             </div>
         </div>
-        <div class="aboutus">
+        <main role="main" class="aboutus">
             <p>
                 The Ottawa Bagel is located in
                 downtown Ottawa, and we are
@@ -107,7 +115,7 @@
                 spotlight on the community that
                 supports us.
             </p>
-        </div>
+        </main>
     <div class="ottcenter">
         <img class="ott" 
         srcset="
@@ -118,7 +126,7 @@
     </div>
     <footer role="contentinfo" class="aboutfoot">
         <p>&copy;Copyright 2023</p>
-        <p>613-123-4567 123 Ottawa St.</p>
+        <p itemprop="address">613-123-4567 123 Ottawa St.</p>
     </footer>
     </div>
 </body>
