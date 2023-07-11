@@ -231,7 +231,7 @@ h2 {
         font-size: smaller;
         font-weight: 800;
         position: relative;
-        top: -9.5rem;
+        top: -7.5rem;
     }
     
     .bakerpic {
@@ -246,7 +246,7 @@ h2 {
         z-index: 4;
         margin: 0;
         position: relative;
-        top: -15rem;
+        top: -12rem;
         font-size: larger;
     }
     .bevent {
@@ -405,7 +405,7 @@ h2 {
         font-size: smaller;
         font-weight: 800;
         position: relative;
-        top: -10rem;
+        top: -12rem;
     }
     
     .bakerpic {
@@ -416,7 +416,7 @@ h2 {
         z-index: 4;
         margin: 0;
         position: relative;
-        top: -16rem;
+        top: -12rem;
         font-size: larger;
     }
     /* some more location css */
