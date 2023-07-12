@@ -171,6 +171,8 @@ a {
     ;
 }
 
+/*naming and grid creation, area allows ur to name, grid template creates the grid */
+
 .zindex {
     z-index: 1;
     order: 0;
@@ -528,7 +530,7 @@ h5 {
         scale: 2;
     }
 }
-
+/*animation for the 2nd required, allows the red ping to blink */
 
 
 #locate {
