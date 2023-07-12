@@ -30,7 +30,7 @@ body {
     grid-area: c;
     margin: .1rem;
 }
-
+/* creation of a grid via giving them names with grid area and using them in grid template */
 .scart {
     grid-area: sc;
     margin: .1rem;
@@ -81,7 +81,7 @@ h1 {
 .main > *:not(:last-child) {
     display: inline-block;
 }
-/*to select the childern except the the last*/
+/*to select the childern except the the last to allow for proper styling*/
 .activemenu {
     list-style: none;
     background-color: rgb(252, 204, 117);
@@ -108,7 +108,6 @@ a {
     font-weight: 900;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
-/* test, works for now */
 
 .menubutton:focus + div{
     animation-name: slideIn;
